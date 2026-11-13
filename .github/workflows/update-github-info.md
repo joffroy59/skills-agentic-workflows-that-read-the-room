@@ -22,6 +22,7 @@ network:
     - awesome-copilot.github.com
 engine:
   id: copilot
+  model-provider: github
   copilot-sdk: true
 ---
 
