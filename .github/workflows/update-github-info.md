@@ -19,6 +19,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -32,13 +33,14 @@ Use web-fetch to review:
 
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Identify recent, useful updates for developers that fit the website's focus.
 Update `site/content/github-info.md` with concise, practical content. Preserve
 the existing structure and include source context when information comes from
-the GitHub Blog or GitHub Changelog. Do not invent details; if no relevant,
-verifiable update is available, call `noop` with a brief reason and make no
-changes.
+the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows. Do not invent
+details; if no relevant, verifiable update is available, call `noop` with a
+brief reason and make no changes.
 
 If you make a meaningful update, open a draft pull request for Mona to review.
 Use a title that mentions Mona or GitHub Info. Do not write directly to `main`;
